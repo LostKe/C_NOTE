@@ -8,7 +8,8 @@ struct Book{
    int  book_id;
 }
 
-int main() {
+int main()
+{
   struct Book nginx;
   struct Book mongoDB;
   /* 设置nginx 信息*/
