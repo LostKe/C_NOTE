@@ -15,6 +15,6 @@ int main()
 {
   int array[]={1,2,3,4,5,6,7,8,9};
   int result;
-  getAvg(&result,&array);
+  getAvg(&result,array);
   printf("result=%d\n",result );
 }
