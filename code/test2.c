@@ -9,6 +9,7 @@ void getAvg(int *result,int *array,int length)
   {
    *result=*result+array[i];
   }
+  return ;
 
 }
 
@@ -20,4 +21,5 @@ int main()
   GET_ARRAY_LEN(array,len);
   getAvg(&result,array,len);
   printf("result=%d\n",result );
+  return 0;
 }
