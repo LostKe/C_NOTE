@@ -24,6 +24,6 @@ int main()
   /*输出 nginx 信息*/
   printf("nginx-title=%s\n",nginx.title );
   printf("nginx-author=%s\n",nginx.author );
-  printf("nginx-book_id=%s\n",nginx.book_id );
+  printf("nginx-book_id=%d\n",nginx.book_id );
   return 0;
 }
