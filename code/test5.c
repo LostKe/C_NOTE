@@ -6,7 +6,7 @@ struct Book{
    char title[50];
    char author[50];
    int  book_id;
-}
+}; /*结构体得以;结尾*/
 
 int main()
 {
