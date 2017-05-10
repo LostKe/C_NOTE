@@ -5,6 +5,7 @@ int main()
 {
 	char str[]="abcd";
 	char str1[]="-end";
+	/*这里得定义长度*/
 	char strTemp[80];
 	memset(strTemp,0,strlen(strTemp));
 	strcpy(strTemp,str1);
