@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 /*求数组的平均值 (形式参数是一个指针)*/
-void getAvg(*result,*array)
+void getAvg(int *result,int *array)
 {
   *result=0;
   for(int i;i<sizeof(*array);i++)
