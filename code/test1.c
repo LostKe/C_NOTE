@@ -1,3 +1,4 @@
+/*函数参数的引用调用*/
 #include <stdio.h>
 
 void sum(int x,int y,int *sum)
