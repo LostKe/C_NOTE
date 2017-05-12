@@ -1,5 +1,6 @@
 #include "stdio.h"
 
+
 //写入文件
 void storeText(char *filename)
 {
